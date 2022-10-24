@@ -1,0 +1,16 @@
+{
+  "name": "typing_test_terminal",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./bin/index.js",
+  "author": "",
+  "license": "MIT",
+  "bin": {
+    "typing": "./bin/index.js"
+  },
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^5.1.2"
+  }
+}
