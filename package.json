@@ -1,16 +1,18 @@
 {
-  "name": "typing_test_terminal",
+  "name": "typing_test_for_mark",
   "version": "1.0.0",
-  "description": "",
+  "description": "What is your typing speed?",
   "type": "module",
   "main": "./bin/index.js",
   "author": "",
   "license": "MIT",
+  "preferGlobal": true,
   "bin": {
     "typing": "./bin/index.js"
   },
   "dependencies": {
     "boxen": "^7.0.0",
-    "chalk": "^5.1.2"
+    "chalk": "^5.1.2",
+    "random-words": "^1.2.0"
   }
 }
